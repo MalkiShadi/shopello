@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	background-image:url('../welcome/02.jpg');
+	background-size:50%;
+	background-position: left;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+	
+}
+
+.img1{
+	opacity:0.5;
+	align:left;
+	height:100%;
+	margin-bottom:25%;
+}
+.img2{
+	margin-top:0px;
+	align:right;
+	height:100%;
+	 margin-bottom:30%;
+	 
+	 
+}
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+
+}
+.bk{
+	 background-color: #ffad33;
+	 margin-left:50%;
+	 margin-top:2px;
+	 margin-bottom:-2%;
+}
+nav ul{
+    list-style-type: none;
+    height: 60px; 
+    width: 50%;
+    background-color: black;
+	
+    
+}
+
+nav ul li{
+    display: inline;
+    float: right;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+
+li a{
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    transform: translateY(2px);
+    transition: 0.5s ease;
+    border-bottom: 2px solid white;
+    color:#ffad33;
+    transition: all .4s;
+    padding-top: 0.1rem;
+}
+
+hr{
+	right:0;
+    width: 50%;
+    border: 1px solid black;
+    color: black;
+}
+
+nav ul li:hover{
+    
+    transform: translateY(5px);
+    transition: 0.5s ease;
+    border-bottom: 2px solid white;
+    color:red;
+    transition: all .4s;
+    padding-top: 0.2rem;
+}
+
+#home{
+    margin-top: auto; 
+    margin-left: 800px;
+    font-size: 25px;
+}
+	
+.btn{
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 18px;
+    box-shadow: none;
+    background-color: #ffad33;
+}
+
+.checked{
+    color: #ffa31a;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition:0.6s ease;
+}
+
+
